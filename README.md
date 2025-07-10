@@ -22,3 +22,16 @@
 - \$ conda env create -f environment.yml
 - \$ conda activate llms (same version of env)
 - \$ jupyter lab
+
+## Setting up Keys to OpenAI
+
+- Login https://platform.openai.com/docs/overview
+- Add some money: https://platform.openai.com/settings/organization/billing/overview
+- Goto https://platform.openai.com/settings/proj_Y6sAugweefjAYuWMCzxJfOPs/api-keys
+- Create new secret key
+  - name: test
+  - create secret key
+  - copy the secret key in clipboard
+  - llm_engineering/.env
+  - OPENAI_API_KEY=sk-proj-<CopiedKey>
+-
