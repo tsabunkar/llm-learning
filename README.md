@@ -17,6 +17,7 @@
 - Jupyter is an open-source interactive tool used for creating documents called notebooks where you can write code, add text explanations, and see outputs all in one shared place within a web browser
 - Clone the repo: https://github.com/ed-donner/llm_engineering.git
 - Install Anaconda Distribution
+- \$ conda --version (if doesnt recognize in Zsh, close and reopen the termnial)
 - \$ cd llm_engineering
 - \$ conda env create -f environment.yml
 - \$ conda activate llms (same version of env)
